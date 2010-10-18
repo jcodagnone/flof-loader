@@ -1,0 +1,1841 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix l: <http://kraken.zauber.com.ar/ns/2009/11/location#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rev: <http://purl.org/stuff/rev#> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+<http://kraken.zauber.com.ar/resource/flof/user/macarse> a foaf:Person ;
+	foaf:nick "macarse" ;
+	foaf:mbox_sha1sum "4c12d0654171c41b47c26a558f710f3d7865ec61" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/lizfany> a foaf:Person ;
+	foaf:nick "lizfany" ;
+	foaf:mbox_sha1sum "c0d60f537bb7cd0906d826162dd5f4a556d87036" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/afalkear> a foaf:Person ;
+	foaf:nick "afalkear" ;
+	foaf:mbox_sha1sum "19ae668739980567c58944a4ea96a6ba5d091f40" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/jacho> a foaf:Person ;
+	foaf:nick "jacho" ;
+	foaf:mbox_sha1sum "d1417472a636feaa6c7f18a27e3494d6485610d3" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/teban> a foaf:Person ;
+	foaf:nick "teban" ;
+	foaf:mbox_sha1sum "b56a8c2edcb1a86a99ac5e26595e74b296b308d5" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/huevo> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/vitorio> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/huevo> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/vitorio> ;
+	foaf:nick "huevo" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> a foaf:Person ;
+	foaf:nick "ncachanosky" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/demiurgo> a foaf:Person ;
+	foaf:nick "demiurgo" ;
+	foaf:mbox_sha1sum "245c4b7c12602ecadd3461e1ec9bfddf7528514c" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/bighead> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/epere4> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/agux> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/barbazul60> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/juan> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/nati> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/bighead> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/epere4> , <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/vitorio> , <http://kraken.zauber.com.ar/resource/flof/user/barbazul60> , <http://kraken.zauber.com.ar/resource/flof/user/agux> , <http://kraken.zauber.com.ar/resource/flof/user/nati> ;
+	foaf:nick "bighead" ;
+	foaf:mbox_sha1sum "ecf8643c4296e0f1d1657053b0b857d058fdf387" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/akira> a foaf:Person ;
+	foaf:nick "akira" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/sdaguero> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/paulaysergio> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/sdaguero> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/paulaysergio> ;
+	foaf:nick "sdaguero" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/chan> a foaf:Person ;
+	foaf:nick "chan" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/eemi> a foaf:Person ;
+	foaf:nick "eemi" ;
+	foaf:mbox_sha1sum "8e017b91dc75b4e8b1d4ce2a41f88882748c8ea3" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/ropu> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/martin> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/matias> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/ropu> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/martin> , <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/vitorio> , <http://kraken.zauber.com.ar/resource/flof/user/matias> ;
+	foaf:nick "ropu" ;
+	foaf:mbox_sha1sum "7547e9a2f1b013518fbd1e63460795ce34603132" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/cono> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/gabriel> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/fernando> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/angelita> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/guada> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/cono> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/fernando> , <http://kraken.zauber.com.ar/resource/flof/user/angelita> , <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/gabriel> , <http://kraken.zauber.com.ar/resource/flof/user/guada> ;
+	foaf:nick "cono" ;
+	foaf:mbox_sha1sum "2f4225b3380c3b6f4ff1013a4cf8580cd8bbf782" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/luigi> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/dwayne> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/pabloat> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/chrishein> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/luigi> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/epere4> , <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/dwayne> , <http://kraken.zauber.com.ar/resource/flof/user/vitorio> , <http://kraken.zauber.com.ar/resource/flof/user/chrishein> , <http://kraken.zauber.com.ar/resource/flof/user/pabloat> ;
+	foaf:nick "luigi" ;
+	foaf:mbox_sha1sum "b108149012d653d61e9e253291f40b35c8001f02" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/sebas> a foaf:Person ;
+	foaf:nick "sebas" ;
+	foaf:mbox_sha1sum "78504d01565ecd439088f27965eb27992a98516f" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/salieris> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/matias> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/martin> , <http://kraken.zauber.com.ar/resource/flof/user/salieris> , <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/vitorio> , <http://kraken.zauber.com.ar/resource/flof/user/ropu> ;
+	foaf:nick "matias" ;
+	foaf:mbox_sha1sum "9f41a6299a07135efddfce95cc9e8d8f01b3411f" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/javier> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/andres> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/javier> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/andres> , <http://kraken.zauber.com.ar/resource/flof/user/juan> ;
+	foaf:nick "javier" ;
+	foaf:mbox_sha1sum "0b6b09006b91db547b94f161c4416e138ac3c02c" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/fer> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/patita_vf> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/mariano> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/andres> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/epere4> , <http://kraken.zauber.com.ar/resource/flof/user/fer> , <http://kraken.zauber.com.ar/resource/flof/user/martin> , <http://kraken.zauber.com.ar/resource/flof/user/fernando> , <http://kraken.zauber.com.ar/resource/flof/user/patita_vf> , <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/gabriel> , <http://kraken.zauber.com.ar/resource/flof/user/mariano> ;
+	foaf:nick "andres" ;
+	foaf:mbox_sha1sum "492ad7c4b6d2f937716fcacbaa5eddc9a6fc3874" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/boogerman> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/flopy> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/fernando> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/andres> , <http://kraken.zauber.com.ar/resource/flof/user/epere4> , <http://kraken.zauber.com.ar/resource/flof/user/flopy> , <http://kraken.zauber.com.ar/resource/flof/user/cono> , <http://kraken.zauber.com.ar/resource/flof/user/martin> , <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/gabriel> , <http://kraken.zauber.com.ar/resource/flof/user/boogerman> ;
+	foaf:nick "fernando" ;
+	foaf:mbox_sha1sum "f4b8213813ff68d94b7a3f711cde9a0aae64eb83" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/cosmopolita> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/julio> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/maverick> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/martinpereda> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/paulamvt> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/epere4> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/andres> , <http://kraken.zauber.com.ar/resource/flof/user/epere4> , <http://kraken.zauber.com.ar/resource/flof/user/paulamvt> , <http://kraken.zauber.com.ar/resource/flof/user/martin> , <http://kraken.zauber.com.ar/resource/flof/user/cosmopolita> , <http://kraken.zauber.com.ar/resource/flof/user/matias> , <http://kraken.zauber.com.ar/resource/flof/user/luigi> , <http://kraken.zauber.com.ar/resource/flof/user/martinpereda> , <http://kraken.zauber.com.ar/resource/flof/user/fernando> , <http://kraken.zauber.com.ar/resource/flof/user/julio> , <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/maverick> , <http://kraken.zauber.com.ar/resource/flof/user/vitorio> , <http://kraken.zauber.com.ar/resource/flof/user/chrishein> , <http://kraken.zauber.com.ar/resource/flof/user/gabriel> , <http://kraken.zauber.com.ar/resource/flof/user/pabloat> ;
+	foaf:nick "epere4" ;
+	foaf:mbox_sha1sum "142560555828697bed59c3005fad6972a4642320" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/maqui> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/angeles> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/martin> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/andres> , <http://kraken.zauber.com.ar/resource/flof/user/cono> , <http://kraken.zauber.com.ar/resource/flof/user/fernando> , <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/angeles> , <http://kraken.zauber.com.ar/resource/flof/user/gabriel> , <http://kraken.zauber.com.ar/resource/flof/user/vitorio> , <http://kraken.zauber.com.ar/resource/flof/user/matias> , <http://kraken.zauber.com.ar/resource/flof/user/maqui> ;
+	foaf:nick "martin" ;
+	foaf:mbox_sha1sum "e4bb32fe9b0e11cafdadfe591b2b0f52ca301da1" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/pichu> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/el_tio> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/nickyramone> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/franchute13> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/mati> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/serge> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/juan> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/el_tio> , <http://kraken.zauber.com.ar/resource/flof/user/epere4> , <http://kraken.zauber.com.ar/resource/flof/user/andres> , <http://kraken.zauber.com.ar/resource/flof/user/cono> , <http://kraken.zauber.com.ar/resource/flof/user/martin> , <http://kraken.zauber.com.ar/resource/flof/user/cosmopolita> , <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> , <http://kraken.zauber.com.ar/resource/flof/user/nickyramone> , <http://kraken.zauber.com.ar/resource/flof/user/barbazul60> , <http://kraken.zauber.com.ar/resource/flof/user/matias> , <http://kraken.zauber.com.ar/resource/flof/user/luigi> , <http://kraken.zauber.com.ar/resource/flof/user/pichu> , <http://kraken.zauber.com.ar/resource/flof/user/fernando> , <http://kraken.zauber.com.ar/resource/flof/user/mati> , <http://kraken.zauber.com.ar/resource/flof/user/franchute13> , <http://kraken.zauber.com.ar/resource/flof/user/vitorio> , <http://kraken.zauber.com.ar/resource/flof/user/gabriel> , <http://kraken.zauber.com.ar/resource/flof/user/javier> , <http://kraken.zauber.com.ar/resource/flof/user/serge> ;
+	foaf:nick "juan" ;
+	foaf:mbox_sha1sum "c9d8f93fec389758d207526cf379d33f74b79f2c" .
+
+<http://kraken.zauber.com.ar/resource/flof/location/175> a l:flof-location ;
+	dc:title "ITBA"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/geo/69y7pu9u3s2j> a geo:Point ;
+	geo:lat "-34.6034337997171"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-58.3678934921265"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/175> l:location-geocode <http://kraken.zauber.com.ar/resource/geo/69y7pu9u3s2j> .
+
+<http://rdf.freebase.com/ns/en.buenos_aires> a l:location .
+
+<http://rdf.freebase.com/ns/en.puerto_madero> a l:location ;
+	l:location-containedby <http://rdf.freebase.com/ns/en.buenos_aires> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/175> l:location-containedby <http://rdf.freebase.com/ns/en.buenos_aires> , <http://rdf.freebase.com/ns/en.puerto_madero> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/universidad> a tags:Tag ;
+	tags:name "universidad"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/facultad> a tags:Tag ;
+	tags:name "facultad"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/itba> a tags:Tag ;
+	tags:name "itba"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/8145> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/itba> , <http://kraken.zauber.com.ar/resource/flof/tag/facultad> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/macarse> ;
+	tags:taggedOn "2007-10-12T23:45:31.098-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/8144> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/lizfany> ;
+	rev:text "univ"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/lizfany> ;
+	dcterms:created "2007-10-12T22:35:33.085-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/8144> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/lizfany> ;
+	tags:taggedOn "2007-10-12T22:35:33.085-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> a tags:Tag ;
+	tags:name "ingeniería"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/8038> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/afalkear> ;
+	tags:taggedOn "2007-09-30T13:50:11.165-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/5758> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/jacho> ;
+	rev:text "facu de la maestria del jacho..."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/jacho> ;
+	dcterms:created "2007-03-28T10:34:37.680-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/facu> a tags:Tag ;
+	tags:name "facu"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/informática> a tags:Tag ;
+	tags:name "informática"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/maestria> a tags:Tag ;
+	tags:name "maestria"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/mti> a tags:Tag ;
+	tags:name "mti"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/master> a tags:Tag ;
+	tags:name "master"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/5758> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/maestria> , <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/mti> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> , <http://kraken.zauber.com.ar/resource/flof/tag/facu> , <http://kraken.zauber.com.ar/resource/flof/tag/master> , <http://kraken.zauber.com.ar/resource/flof/tag/informática> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/jacho> ;
+	tags:taggedOn "2007-03-28T10:34:37.680-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://www.itba.edu.ar/images/Logo_ITBA2.gif> a foaf:Image .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=5758> a foaf:Image .
+
+<http://www.itba.edu.ar/images/Logo_ITBA2.gif> foaf:thumbnail <http://flof.com.ar/bin/spot/image/?action=thumb&imageid=268> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/5440> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/facultad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/teban> ;
+	tags:taggedOn "2007-02-24T22:10:47.944-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=5440> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/estudiantes> a tags:Tag ;
+	tags:name "estudiantes"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/estudio> a tags:Tag ;
+	tags:name "estudio"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/ingenieria> a tags:Tag ;
+	tags:name "ingenieria"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4757> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/facultad> , <http://kraken.zauber.com.ar/resource/flof/tag/ingenieria> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> , <http://kraken.zauber.com.ar/resource/flof/tag/estudiantes> , <http://kraken.zauber.com.ar/resource/flof/tag/estudio> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/huevo> ;
+	tags:taggedOn "2007-01-17T10:37:06.945-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=4757> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/4414> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	rev:text "ITBA"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	dcterms:created "2007-01-07T14:28:03.315-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4414> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	tags:taggedOn "2007-01-07T14:28:03.315-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=4414> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/informatica> a tags:Tag ;
+	tags:name "informatica"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4176> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/facultad> , <http://kraken.zauber.com.ar/resource/flof/tag/ingenieria> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> , <http://kraken.zauber.com.ar/resource/flof/tag/informatica> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/demiurgo> ;
+	tags:taggedOn "2006-12-21T23:03:19.776-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3846> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/bighead> ;
+	rev:text "Universidad que enseña carreras ingenieriles y que tiene prestigio."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/bighead> ;
+	dcterms:created "2006-12-08T18:18:05.331-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/capitalfederal> a tags:Tag ;
+	tags:name "capitalfederal"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/educación> a tags:Tag ;
+	tags:name "educación"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3846> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/itba> , <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/capitalfederal> , <http://kraken.zauber.com.ar/resource/flof/tag/facultad> , <http://kraken.zauber.com.ar/resource/flof/tag/educación> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/bighead> ;
+	tags:taggedOn "2006-12-08T18:18:05.331-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3846> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3772> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/itba> , <http://kraken.zauber.com.ar/resource/flof/tag/facultad> , <http://kraken.zauber.com.ar/resource/flof/tag/ingenieria> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/akira> ;
+	tags:taggedOn "2006-12-05T00:38:42.785-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3772> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/175> a rev:Review .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3503> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/itba> , <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/sdaguero> ;
+	tags:taggedOn "2006-11-13T23:25:49.122-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/2532> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/itba> , <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/facultad> , <http://kraken.zauber.com.ar/resource/flof/tag/informatica> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/chan> ;
+	tags:taggedOn "2006-09-14T00:55:47.150-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/1972> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/eemi> ;
+	tags:taggedOn "2006-07-25T23:59:06.807-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/983> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/ropu> ;
+	rev:text "Facultad de Ingenieria"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/ropu> ;
+	dcterms:created "2006-06-18T19:18:17.497-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/983> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/facultad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/ropu> ;
+	tags:taggedOn "2006-06-18T19:18:17.497-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/890> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/cono> ;
+	rev:text "Facultad de Ingenieria"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/cono> ;
+	dcterms:created "2006-06-14T23:22:37.413-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/890> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/cono> ;
+	tags:taggedOn "2006-06-14T23:22:37.413-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/752> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/luigi> ;
+	rev:text "Facultad de Ingenieria"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/luigi> ;
+	dcterms:created "2006-06-10T23:31:01.849-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/752> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/luigi> ;
+	tags:taggedOn "2006-06-10T23:31:01.849-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/717> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/sebas> ;
+	rev:text "Facultad de Ingenieria"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/sebas> ;
+	dcterms:created "2006-06-10T13:33:55.137-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/717> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/itba> , <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> , <http://kraken.zauber.com.ar/resource/flof/tag/informática> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/sebas> ;
+	tags:taggedOn "2006-06-10T13:33:55.137-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/659> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/matias> ;
+	rev:text "Facultad de Ingenieria"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/matias> ;
+	dcterms:created "2006-06-05T15:36:36.350-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/gris> a tags:Tag ;
+	tags:name "gris"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/659> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/facultad> , <http://kraken.zauber.com.ar/resource/flof/tag/ingenieria> , <http://kraken.zauber.com.ar/resource/flof/tag/gris> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/matias> ;
+	tags:taggedOn "2006-06-05T15:36:36.350-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/502> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/javier> ;
+	rev:text "Facultad de Ingenieria"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/javier> ;
+	dcterms:created "2006-04-20T19:03:24.796-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/502> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/facultad> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/javier> ;
+	tags:taggedOn "2006-04-20T19:03:24.796-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/443> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/andres> ;
+	rev:text "Facultad de Ingenieria"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/andres> ;
+	dcterms:created "2006-04-19T19:31:07.620-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/trabajo> a tags:Tag ;
+	tags:name "trabajo"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/443> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/trabajo> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/andres> ;
+	tags:taggedOn "2006-04-19T19:31:07.620-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/269> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/fernando> ;
+	rev:text "Facultad de Ingenieria"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/fernando> ;
+	dcterms:created "2006-04-18T18:49:33.960-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/269> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/ingenieria> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/fernando> ;
+	tags:taggedOn "2006-04-18T18:49:33.960-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/268> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	rev:text "Facultad de Ingenieria"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	dcterms:created "2006-04-18T17:53:01.219-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/268> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/facultad> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	tags:taggedOn "2006-04-18T17:53:01.219-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=268> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/175> rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	rev:text "Facultad de Ingenieria"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	dcterms:created "2006-04-15T01:14:33.611-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/175> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/facultad> , <http://kraken.zauber.com.ar/resource/flof/tag/trabajo> , <http://kraken.zauber.com.ar/resource/flof/tag/ingenieria> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	tags:taggedOn "2006-04-15T01:14:33.611-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/207> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/juan> ;
+	tags:taggedOn "2006-03-09T05:40:32.002-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/175> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/175> l:location-address "Av. Eduardo Madero 399" ;
+	rev:hasReview <http://kraken.zauber.com.ar/resource/flof/review/268> , <http://kraken.zauber.com.ar/resource/flof/review/443> , <http://kraken.zauber.com.ar/resource/flof/review/269> , <http://kraken.zauber.com.ar/resource/flof/review/3846> , <http://kraken.zauber.com.ar/resource/flof/review/752> , <http://kraken.zauber.com.ar/resource/flof/review/717> , <http://kraken.zauber.com.ar/resource/flof/review/175> , <http://kraken.zauber.com.ar/resource/flof/review/502> , <http://kraken.zauber.com.ar/resource/flof/review/983> , <http://kraken.zauber.com.ar/resource/flof/review/4414> , <http://kraken.zauber.com.ar/resource/flof/review/5758> , <http://kraken.zauber.com.ar/resource/flof/review/8144> , <http://kraken.zauber.com.ar/resource/flof/review/890> , <http://kraken.zauber.com.ar/resource/flof/review/659> ;
+	tags:taggedWithTag <http://kraken.zauber.com.ar/resource/flof/tag/maestria> , <http://kraken.zauber.com.ar/resource/flof/tag/ingeniería> , <http://kraken.zauber.com.ar/resource/flof/tag/capitalfederal> , <http://kraken.zauber.com.ar/resource/flof/tag/ingenieria> , <http://kraken.zauber.com.ar/resource/flof/tag/educación> , <http://kraken.zauber.com.ar/resource/flof/tag/facu> , <http://kraken.zauber.com.ar/resource/flof/tag/informatica> , <http://kraken.zauber.com.ar/resource/flof/tag/itba> , <http://kraken.zauber.com.ar/resource/flof/tag/facultad> , <http://kraken.zauber.com.ar/resource/flof/tag/trabajo> , <http://kraken.zauber.com.ar/resource/flof/tag/gris> , <http://kraken.zauber.com.ar/resource/flof/tag/mti> , <http://kraken.zauber.com.ar/resource/flof/tag/master> , <http://kraken.zauber.com.ar/resource/flof/tag/universidad> , <http://kraken.zauber.com.ar/resource/flof/tag/estudiantes> , <http://kraken.zauber.com.ar/resource/flof/tag/estudio> , <http://kraken.zauber.com.ar/resource/flof/tag/informática> ;
+	foaf:depiction <http://www.itba.edu.ar/images/Logo_ITBA2.gif> ;
+	dc:source <http://flof.com.ar> ;
+	dc:identifier "urn:zauber:flof:produccion:3846" , "urn:zauber:flof:produccion:4176" , "urn:zauber:flof:produccion:983" , "urn:zauber:flof:produccion:5758" , "urn:zauber:flof:produccion:717" , "urn:zauber:flof:produccion:3503" , "urn:zauber:flof:produccion:1972" , "urn:zauber:flof:produccion:4757" , "urn:zauber:flof:produccion:890" , "urn:zauber:flof:produccion:207" , "urn:zauber:flof:produccion:3772" , "urn:zauber:flof:produccion:5440" , "urn:zauber:flof:produccion:659" , "urn:zauber:flof:produccion:8038" , "urn:zauber:flof:produccion:8145" , "urn:zauber:flof:produccion:4414" , "urn:zauber:flof:produccion:8144" , "urn:zauber:flof:produccion:752" , "urn:zauber:flof:produccion:2532" , "urn:zauber:flof:produccion:175" , "urn:zauber:flof:produccion:268" , "urn:zauber:flof:produccion:269" , "urn:zauber:flof:produccion:443" , "urn:zauber:flof:produccion:502" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/natallia> a foaf:Person ;
+	foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/cosmopolita> ;
+	foaf:nick "natallia" ;
+	foaf:mbox_sha1sum "7267e8af3632da7b2f4b381128b5c8992f44e456" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/alvarete> a foaf:Person ;
+	foaf:nick "alvarete" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/sundal> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/fearandir> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/sundal> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/fearandir> ;
+	foaf:nick "sundal" ;
+	foaf:mbox_sha1sum "4a63fe355cefff61c646a32656cc3e69445300dd" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/fearandir> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/juan> ;
+	foaf:nick "fearandir" ;
+	foaf:mbox_sha1sum "308076b01c248800cdd0270071d871e74e539f6f" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/ngr0804> a foaf:Person ;
+	foaf:nick "ngr0804" ;
+	foaf:mbox_sha1sum "8b680fcae0a882de3d5d0e5081e5db1e65b1c46d" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/bravo> a foaf:Person ;
+	foaf:nick "bravo" ;
+	foaf:mbox_sha1sum "539c596a2bf4f7879d3ec1856aef6ca7341da709" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/abecciu> a foaf:Person ;
+	foaf:nick "abecciu" ;
+	foaf:mbox_sha1sum "1ee1498af946a5eeaf9fda2b674d9d9934407f38" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/agushbb> a foaf:Person ;
+	foaf:nick "agushbb" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/tiago383> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/merlu_25> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/tiago383> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/merlu_25> ;
+	foaf:nick "tiago383" ;
+	foaf:mbox_sha1sum "f3072117cd048308c81b3b23c9af2df8f93df099" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/salieris> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/martin> , <http://kraken.zauber.com.ar/resource/flof/user/matias> ;
+	foaf:nick "salieris" ;
+	foaf:mbox_sha1sum "e4bb32fe9b0e11cafdadfe591b2b0f52ca301da1" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/jime> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/cele> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/gabriel> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/andres> , <http://kraken.zauber.com.ar/resource/flof/user/cele> , <http://kraken.zauber.com.ar/resource/flof/user/cono> , <http://kraken.zauber.com.ar/resource/flof/user/martin> , <http://kraken.zauber.com.ar/resource/flof/user/fernando> , <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/jime> , <http://kraken.zauber.com.ar/resource/flof/user/maverick> , <http://kraken.zauber.com.ar/resource/flof/user/vitorio> ;
+	foaf:nick "gabriel" ;
+	foaf:mbox_sha1sum "581dd630aae24942a0901a7d6bc02cb8d597473f" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/vitorio> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/martin> , <http://kraken.zauber.com.ar/resource/flof/user/matias> , <http://kraken.zauber.com.ar/resource/flof/user/ropu> ;
+	foaf:nick "vitorio" ;
+	foaf:mbox_sha1sum "cf6b73b004b04f944e23102b2d23bc2c9268861f" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/juanpablocoen> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/cisco> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/agux> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/juanpablocoen> , <http://kraken.zauber.com.ar/resource/flof/user/bighead> , <http://kraken.zauber.com.ar/resource/flof/user/cisco> ;
+	foaf:nick "agux" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/german> a foaf:Person ;
+	foaf:nick "german" ;
+	foaf:mbox_sha1sum "351f4f5a189005b7dca0f60901a51f27961f96bb" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/landitus> a foaf:Person ;
+	foaf:nick "landitus" ;
+	foaf:mbox_sha1sum "7edac62bef57c01d1df070329be898e5673f67a4" .
+
+<http://kraken.zauber.com.ar/resource/flof/location/3144> a l:flof-location ;
+	dc:title "Antares"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/geo/69y7nqusm5dv> a geo:Point ;
+	geo:lat "-34.59107808801"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-58.429880904219"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/3144> l:location-geocode <http://kraken.zauber.com.ar/resource/geo/69y7nqusm5dv> .
+
+<http://rdf.freebase.com/ns/en.palermo_buenos_aires> a l:location ;
+	l:location-containedby <http://rdf.freebase.com/ns/en.buenos_aires> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/3144> l:location-containedby <http://rdf.freebase.com/ns/en.buenos_aires> , <http://rdf.freebase.com/ns/en.palermo_buenos_aires> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/cerveceria> a tags:Tag ;
+	tags:name "cerveceria"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/artesanal> a tags:Tag ;
+	tags:name "artesanal"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/cerveza> a tags:Tag ;
+	tags:name "cerveza"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/17290> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/cerveceria> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/natallia> ;
+	tags:taggedOn "2009-10-12T19:57:52.455-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://www.adondevamos.com/fotos/lugar/1626_ft_foto1_big.jpg> a foaf:Image .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=17290> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/6461> tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/tiago383> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/bar> a tags:Tag ;
+	tags:name "bar"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/pub> a tags:Tag ;
+	tags:name "pub"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/12712> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/pub> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/alvarete> ;
+	tags:taggedOn "2008-11-08T14:50:34.660-02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=12712> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/12366> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/sundal> ;
+	rev:text "Bar sucursal del marplatense"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/sundal> ;
+	dcterms:created "2008-10-16T12:42:39.941-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/birra> a tags:Tag ;
+	tags:name "birra"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/12366> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/birra> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/sundal> ;
+	tags:taggedOn "2008-10-16T12:42:39.941-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://www.guiaoleo.com.ar/photos/photo_2796_1.jpg> a foaf:Image .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=12366> a foaf:Image .
+
+<http://www.guiaoleo.com.ar/photos/photo_2796_1.jpg> foaf:thumbnail <http://flof.com.ar/bin/spot/image/?action=thumb&imageid=12363> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/12363> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/fearandir> ;
+	rev:text """bar, cervezas artesanales, tapas
+4833 9611
+T/d desde 19. Happy hour 19 a 22 t/d.
+Música en vivo Lunes desde 22.
+http://www.guiaoleo.com.ar/detail.php?ID=2796
+<img src=http://www.guiaoleo.com.ar/photos/photo_2796_1.jpg>Fachada</img>"""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/fearandir> ;
+	dcterms:created "2008-10-16T11:35:53.944-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/palermosoho> a tags:Tag ;
+	tags:name "palermosoho"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/recomendado> a tags:Tag ;
+	tags:name "recomendado"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/12363> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/recomendado> , <http://kraken.zauber.com.ar/resource/flof/tag/palermosoho> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/pub> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/fearandir> ;
+	tags:taggedOn "2008-10-16T11:35:53.944-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=12363> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/picadas> a tags:Tag ;
+	tags:name "picadas"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/tapas> a tags:Tag ;
+	tags:name "tapas"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/beer> a tags:Tag ;
+	tags:name "beer"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/brew> a tags:Tag ;
+	tags:name "brew"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/restaurant> a tags:Tag ;
+	tags:name "restaurant"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/brewpub> a tags:Tag ;
+	tags:name "brewpub"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/9911> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/brew> , <http://kraken.zauber.com.ar/resource/flof/tag/beer> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/tapas> , <http://kraken.zauber.com.ar/resource/flof/tag/recomendado> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveceria> , <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/brewpub> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/pub> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/ngr0804> ;
+	tags:taggedOn "2008-04-06T19:19:50.896-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=9911> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/8991> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/bravo> ;
+	tags:taggedOn "2008-01-08T07:32:24.627-02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=8991> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/8251> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/cerveceria> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/abecciu> ;
+	tags:taggedOn "2007-10-28T19:55:08.529-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=8251> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/6461> tags:taggedOn "2007-06-01T11:50:09.158-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/7582> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/cerveceria> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/agushbb> ;
+	tags:taggedOn "2007-08-24T16:32:00.805-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=7582> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3697> a rev:Review .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/6461> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/tapas> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=6461> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/5333> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/salieris> ;
+	rev:text "Genial como siempre. Ayer fuimos y nos tomamos unas muy ricas chichas (recomiendo la imperial stout) junto a una tabla grande y algunas tapas. Lo mejor fue cuando Tincho junto como 120 mangos en tickets y cuando fue a pagar le dijeron que no aceptaban, jajaja por RATA!!!"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/salieris> ;
+	dcterms:created "2007-02-16T09:51:48.727-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/comidajueves> a tags:Tag ;
+	tags:name "comidajueves"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/5333> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/comidajueves> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/tapas> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/salieris> ;
+	tags:taggedOn "2007-02-16T09:51:48.727-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=5333> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/4507> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	rev:text "Antares"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	dcterms:created "2007-01-07T20:07:09.264-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4507> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	tags:taggedOn "2007-01-07T20:07:09.264-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=4507> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/4263> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/andres> ;
+	rev:text "Excelente cervecería artesanal. La comida está muy buena, y se recomiendan las papas Antares para ir acompañando la cerveza. La ensalada Caesar es recomendable, y la hamburguesa es mortal..."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/andres> ;
+	dcterms:created "2006-12-27T21:00:43.724-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4263> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/tapas> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/andres> ;
+	tags:taggedOn "2006-12-27T21:00:43.724-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=4263> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/4259> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/gabriel> ;
+	rev:text """Excelente cervecería artesanal. Tiene además muy ricos platos de picadas y comidas.
+En verano happy hour de cerveza de 19 a 21 horas."""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/gabriel> ;
+	dcterms:created "2006-12-27T01:11:29.104-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4259> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/cerveceria> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/tapas> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/gabriel> ;
+	tags:taggedOn "2006-12-27T01:11:29.104-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=4259> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4257> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/tapas> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/fernando> ;
+	tags:taggedOn "2006-12-26T19:06:58.704-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=4257> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/4115> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/vitorio> ;
+	rev:text "Sucursal porteña de la clasica cerveceria marplatense. Muy bueno para ir de tapas con amigos y degustar los 7 diferentes tipos de cerveza. Precio aprox $25 por cabeza, depende de lo que tomen."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/vitorio> ;
+	dcterms:created "2006-12-18T01:26:19.598-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4115> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/pub> , <http://kraken.zauber.com.ar/resource/flof/tag/tapas> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/vitorio> ;
+	tags:taggedOn "2006-12-18T01:26:19.598-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=4115> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3745> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	rev:text """Un bar muy copado, aunque no me guste la cerveza.
+Curiosidad: los baños tienen la parte de los lavatorios en común entre hombres y mujeres."""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	dcterms:created "2006-12-01T21:01:59.788-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/bares> a tags:Tag ;
+	tags:name "bares"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3745> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/bares> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveceria> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	tags:taggedOn "2006-12-01T21:01:59.788-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3745> a foaf:Image .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3295> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3697> rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/agux> ;
+	rev:text """Muyyy buenoooo, me probé todas las cervezas, una más rica que la otra, muy buena onda la atención también! Recomendación: Papas \"antares\" con Scotch Ale y/o Cream Stout. Tambien hay degustaciones.
+Happy Hour todos los días de 19.00 hs a 21.00 hs :)"""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/agux> ;
+	dcterms:created "2006-11-25T22:24:06.093-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/palermo> a tags:Tag ;
+	tags:name "palermo"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/papas> a tags:Tag ;
+	tags:name "papas"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3697> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/brew> , <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/beer> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/tapas> , <http://kraken.zauber.com.ar/resource/flof/tag/recomendado> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveceria> , <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/brewpub> , <http://kraken.zauber.com.ar/resource/flof/tag/papas> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/agux> ;
+	tags:taggedOn "2006-11-25T22:24:06.093-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3697> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3338> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	rev:text """Teléfono: 4833-9611
+Recomendado por [[/user/juan/][juan]]"""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	dcterms:created "2006-11-03T11:13:19.210-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/wifi> a tags:Tag ;
+	tags:name "wifi"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3338> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/wifi> , <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/beer> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/tapas> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	tags:taggedOn "2006-11-03T11:13:19.210-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3338> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3329> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/cerveceria> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/german> ;
+	tags:taggedOn "2006-11-02T19:05:09.672-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3329> a foaf:Image .
+
+<http://www.adondevamos.com/fotos/lugar/1626_ft_foto1_big.jpg> foaf:thumbnail <http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3144> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3295> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/juan> ;
+	rev:text "Local de la clásica cervecería marplatence.  Excelente lugar para probar las 7 variedades de cerveza antares que son bastante dificil de encontrar en capital. El lugar está bien puesto, y la carta está buena. Lugar recomendado. ¡8 flof!"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/juan> ;
+	dcterms:created "2006-10-30T01:07:19.172-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3295> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/recomendado> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveceria> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/tapas> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/juan> ;
+	tags:taggedOn "2006-10-30T01:07:19.172-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3144> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/landitus> ;
+	rev:text """Dirección: Armenia 1447
+Localidad: Palermo
+Zona: Capital Federal
+Teléfono: 4833-9611
+Estacionamiento: No Tiene
+Cocina: Del chef.
+Especialidad: Comidas cerveceras.
+Sugerencias: Papas Antares, Pinchos de cordero, Cerdo a la cerveza.
+Estilo: De cerveza, Pubs.
+Música: Variada.
+Tragos: Cervezas, mojito, margarita, daiquiris.
+Horarios: Todos los días, a partir de las 18:00 hs.
+Tiene happy hour
+Horario happy hour: De 18:00 a 20:00 hs."""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/landitus> ;
+	dcterms:created "2006-10-19T21:56:04.623-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3144> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/bar> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/landitus> ;
+	tags:taggedOn "2006-10-19T21:56:04.623-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/3144> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3144> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/location/3144> l:location-address "ARMENIA 1447" ;
+	rev:hasReview <http://kraken.zauber.com.ar/resource/flof/review/12363> , <http://kraken.zauber.com.ar/resource/flof/review/3144> , <http://kraken.zauber.com.ar/resource/flof/review/3745> , <http://kraken.zauber.com.ar/resource/flof/review/3295> , <http://kraken.zauber.com.ar/resource/flof/review/4263> , <http://kraken.zauber.com.ar/resource/flof/review/3697> , <http://kraken.zauber.com.ar/resource/flof/review/4115> , <http://kraken.zauber.com.ar/resource/flof/review/4259> , <http://kraken.zauber.com.ar/resource/flof/review/4507> , <http://kraken.zauber.com.ar/resource/flof/review/3338> , <http://kraken.zauber.com.ar/resource/flof/review/12366> , <http://kraken.zauber.com.ar/resource/flof/review/5333> ;
+	tags:taggedWithTag <http://kraken.zauber.com.ar/resource/flof/tag/brew> , <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/palermosoho> , <http://kraken.zauber.com.ar/resource/flof/tag/beer> , <http://kraken.zauber.com.ar/resource/flof/tag/picadas> , <http://kraken.zauber.com.ar/resource/flof/tag/tapas> , <http://kraken.zauber.com.ar/resource/flof/tag/recomendado> , <http://kraken.zauber.com.ar/resource/flof/tag/bares> , <http://kraken.zauber.com.ar/resource/flof/tag/wifi> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveceria> , <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/brewpub> , <http://kraken.zauber.com.ar/resource/flof/tag/birra> , <http://kraken.zauber.com.ar/resource/flof/tag/papas> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/cerveza> , <http://kraken.zauber.com.ar/resource/flof/tag/comidajueves> , <http://kraken.zauber.com.ar/resource/flof/tag/pub> , <http://kraken.zauber.com.ar/resource/flof/tag/artesanal> ;
+	foaf:depiction <http://www.adondevamos.com/fotos/lugar/1626_ft_foto1_big.jpg> , <http://www.guiaoleo.com.ar/photos/photo_2796_1.jpg> ;
+	dc:source <http://flof.com.ar> ;
+	dc:identifier "urn:zauber:flof:produccion:12363" , "urn:zauber:flof:produccion:12366" , "urn:zauber:flof:produccion:4257" , "urn:zauber:flof:produccion:4259" , "urn:zauber:flof:produccion:6461" , "urn:zauber:flof:produccion:7582" , "urn:zauber:flof:produccion:8251" , "urn:zauber:flof:produccion:3144" , "urn:zauber:flof:produccion:3745" , "urn:zauber:flof:produccion:3697" , "urn:zauber:flof:produccion:9911" , "urn:zauber:flof:produccion:4115" , "urn:zauber:flof:produccion:4507" , "urn:zauber:flof:produccion:8991" , "urn:zauber:flof:produccion:17290" , "urn:zauber:flof:produccion:3295" , "urn:zauber:flof:produccion:5333" , "urn:zauber:flof:produccion:12712" , "urn:zauber:flof:produccion:3338" , "urn:zauber:flof:produccion:3329" , "urn:zauber:flof:produccion:4263" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/mapalma> a foaf:Person ;
+	foaf:nick "mapalma" ;
+	foaf:mbox_sha1sum "a37790a3a2e7950debfe0c9b0043ae0f597b4984" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/nicosupernova> a foaf:Person ;
+	foaf:nick "nicosupernova" ;
+	foaf:mbox_sha1sum "2eb33264722df28af77138fb542b24bcb1b84b1d" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/pradero> a foaf:Person ;
+	foaf:nick "pradero" ;
+	foaf:mbox_sha1sum "f3b46355ddd2f2a53c572b24616f4212bb8e8bf8" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/sneimark> a foaf:Person ;
+	foaf:nick "sneimark" ;
+	foaf:mbox_sha1sum "a14149d2cf106342c6383ccf1a3fb8cc3c68e221" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/gusqq> a foaf:Person ;
+	foaf:nick "gusqq" ;
+	foaf:mbox_sha1sum "78423e2c3e87b064378cabe457f8c6bcc0066020" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/dana89> a foaf:Person ;
+	foaf:nick "dana89" ;
+	foaf:mbox_sha1sum "4f6f337aa9e06fdf1bf5fa4eb23bcf17125d1407" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/s_e_b_a> a foaf:Person ;
+	foaf:nick "s_e_b_a" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/aryacade> a foaf:Person ;
+	foaf:nick "aryacade" ;
+	foaf:mbox_sha1sum "12ffe2608a1aed9afc3aedb5b14a1b5a0ba8cd9c" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/nicot91> a foaf:Person ;
+	foaf:nick "nicot91" ;
+	foaf:mbox_sha1sum "d0f0f5eaf9df1bc3b245d3964c60b8607e8feb38" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/seeebb> a foaf:Person ;
+	foaf:nick "seeebb" ;
+	foaf:mbox_sha1sum "8dbc6eef1f6d75e26d77877d86f3a53b68baa4ba" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/kevinkuja> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/roman80> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/artikero> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/kazeman> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/brusa> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/kevinkuja> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/nicot91> , <http://kraken.zauber.com.ar/resource/flof/user/roman80> , <http://kraken.zauber.com.ar/resource/flof/user/artikero> , <http://kraken.zauber.com.ar/resource/flof/user/seeebb> , <http://kraken.zauber.com.ar/resource/flof/user/brusa> , <http://kraken.zauber.com.ar/resource/flof/user/kazeman> ;
+	foaf:nick "kevinkuja" ;
+	foaf:mbox_sha1sum "63d0299e85aabb2120b16ababf2d56aa0c069882" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/leech> a foaf:Person ;
+	foaf:nick "leech" ;
+	foaf:mbox_sha1sum "ee11ef02a1b59b3d5174c6696d3d51e57f4aeb3f" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/martinpereda> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/epere4> , <http://kraken.zauber.com.ar/resource/flof/user/paulamvt> ;
+	foaf:nick "martinpereda" ;
+	foaf:mbox_sha1sum "996c63325ca9d45a508c8aee22dd050121b1fd82" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/chantal> a foaf:Person ;
+	foaf:nick "chantal" .
+
+<http://kraken.zauber.com.ar/resource/flof/location/188> a l:flof-location ;
+	dc:title "Alto Palermo"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/geo/69y7nz6vrx04> a geo:Point ;
+	geo:lat "-34.5881416183491"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-58.4102080215454"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/188> l:location-geocode <http://kraken.zauber.com.ar/resource/geo/69y7nz6vrx04> ;
+	l:location-containedby <http://rdf.freebase.com/ns/en.buenos_aires> , <http://rdf.freebase.com/ns/en.palermo_buenos_aires> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/shopping> a tags:Tag ;
+	tags:name "shopping"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/alto> a tags:Tag ;
+	tags:name "alto"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/15104> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> , <http://kraken.zauber.com.ar/resource/flof/tag/alto> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/mapalma> ;
+	tags:taggedOn "2009-02-17T19:44:56.302-02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://www.vinylgrafix.com.ar/fotos/logos/Alto_Palermo__79743.gif> a foaf:Image .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=15104> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/7332> dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/altopalermo> a tags:Tag ;
+	tags:name "altopalermo"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/12193> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/altopalermo> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/nicosupernova> ;
+	tags:taggedOn "2008-10-06T23:49:07.134-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/recreacion> a tags:Tag ;
+	tags:name "recreacion"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/compras> a tags:Tag ;
+	tags:name "compras"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/10305> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/compras> , <http://kraken.zauber.com.ar/resource/flof/tag/recreacion> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/pradero> ;
+	tags:taggedOn "2008-05-09T22:37:00.727-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/9867> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/shopping> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/sneimark> ;
+	tags:taggedOn "2008-04-05T09:00:05.994-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/9458> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/shopping> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/gusqq> ;
+	tags:taggedOn "2008-03-03T13:05:40.520-02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=9458> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/8930> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/shopping> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/dana89> ;
+	tags:taggedOn "2007-12-27T03:48:23.646-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=8930> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/8332> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/shopping> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/s_e_b_a> ;
+	tags:taggedOn "2007-11-04T14:18:52.283-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/7476> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/aryacade> ;
+	rev:text "En este lugar estuve almorzando con mi familia."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/aryacade> ;
+	dcterms:created "2007-08-21T16:55:16.630-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/2g,ort,argentina> a tags:Tag ;
+	tags:name "2g,ort,argentina"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/7476> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/2g,ort,argentina> , <http://kraken.zauber.com.ar/resource/flof/tag/alto> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/aryacade> ;
+	tags:taggedOn "2007-08-21T16:55:16.630-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=7476> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/7394> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/nicot91> ;
+	rev:text "(Av. Santa Fe 3200, Palermo)  Inaugurado en 1990, Alto Palermo es uno de los más grandes y diversificados shoppings de Buenos Aires. Posee un buen patio de comidas, dos salas de cine y un gimnasio. La moda porteña está muy bien representada en las manos de John L. Cook, Ona Saez, Kosyuko, Ayres, Akiabara, Prototype, entre otros. Casi al lado del shopping, en la esquina de Bulnes y Beruti existe un complejo Cinemark con más 12 salas."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/nicot91> ;
+	dcterms:created "2007-08-14T23:47:50.455-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/argentina> a tags:Tag ;
+	tags:name "argentina"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/nico> a tags:Tag ;
+	tags:name "nico"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/ort> a tags:Tag ;
+	tags:name "ort"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/5infc> a tags:Tag ;
+	tags:name "5infc"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/7394> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/ort> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> , <http://kraken.zauber.com.ar/resource/flof/tag/argentina> , <http://kraken.zauber.com.ar/resource/flof/tag/alto> , <http://kraken.zauber.com.ar/resource/flof/tag/nico> , <http://kraken.zauber.com.ar/resource/flof/tag/5infc> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/nicot91> ;
+	tags:taggedOn "2007-08-14T23:47:50.455-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=7394> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/7388> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/seeebb> ;
+	rev:text "Shopping \"Alto Palermo\" que queda a 2 cuadras de mi casa"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/seeebb> ;
+	dcterms:created "2007-08-14T21:58:56.125-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/sebado> a tags:Tag ;
+	tags:name "sebado"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/7388> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/ort> , <http://kraken.zauber.com.ar/resource/flof/tag/sebado> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> , <http://kraken.zauber.com.ar/resource/flof/tag/argentina> , <http://kraken.zauber.com.ar/resource/flof/tag/alto> , <http://kraken.zauber.com.ar/resource/flof/tag/5infc> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/seeebb> ;
+	tags:taggedOn "2007-08-14T21:58:56.125-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=7388> a foaf:Image .
+
+<http://www.vinylgrafix.com.ar/fotos/logos/Alto_Palermo__79743.gif> foaf:thumbnail <http://flof.com.ar/bin/spot/image/?action=thumb&imageid=1699> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/7332> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/kevinkuja> ;
+	rev:text "El mejor Shopping de todos, ubicado en Palermo, con entradas sobre Santa Fe, y Beruti y Coronel Diaz"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/kevinkuja> ;
+	dcterms:created "2007-08-10T23:31:44.500-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/kevinkuja> a tags:Tag ;
+	tags:name "kevinkuja"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/7332> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/kevinkuja> , <http://kraken.zauber.com.ar/resource/flof/tag/ort> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> , <http://kraken.zauber.com.ar/resource/flof/tag/argentina> , <http://kraken.zauber.com.ar/resource/flof/tag/alto> , <http://kraken.zauber.com.ar/resource/flof/tag/5infc> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/kevinkuja> ;
+	tags:taggedOn "2007-08-10T23:31:44.500-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=7332> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/4448> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	rev:text "Alto Palermo"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	dcterms:created "2007-01-07T15:36:28.868-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/patiodecomidas> a tags:Tag ;
+	tags:name "patiodecomidas"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4448> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/compras> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> , <http://kraken.zauber.com.ar/resource/flof/tag/patiodecomidas> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	tags:taggedOn "2007-01-07T15:36:28.868-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/cine> a tags:Tag ;
+	tags:name "cine"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/ropa> a tags:Tag ;
+	tags:name "ropa"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/clásico> a tags:Tag ;
+	tags:name "clásico"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3868> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/capitalfederal> , <http://kraken.zauber.com.ar/resource/flof/tag/compras> , <http://kraken.zauber.com.ar/resource/flof/tag/cine> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> , <http://kraken.zauber.com.ar/resource/flof/tag/ropa> , <http://kraken.zauber.com.ar/resource/flof/tag/clásico> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/bighead> ;
+	tags:taggedOn "2006-12-08T19:10:27.828-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3512> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/leech> ;
+	tags:taggedOn "2006-11-14T14:14:18.656-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3512> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/bsas> a tags:Tag ;
+	tags:name "bsas"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/1900> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/bsas> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/martinpereda> ;
+	tags:taggedOn "2006-07-23T20:52:44.653-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=1900> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/1699> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	rev:text "Lugar de mierda al que van las mujeres a quemar la plata en ropa"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	dcterms:created "2006-07-18T02:17:08.244-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/1699> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/compras> , <http://kraken.zauber.com.ar/resource/flof/tag/cine> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> , <http://kraken.zauber.com.ar/resource/flof/tag/ropa> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	tags:taggedOn "2006-07-18T02:17:08.244-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=1699> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/giordano> a tags:Tag ;
+	tags:name "giordano"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/1302> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/shopping> , <http://kraken.zauber.com.ar/resource/flof/tag/ropa> , <http://kraken.zauber.com.ar/resource/flof/tag/giordano> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/matias> ;
+	tags:taggedOn "2006-07-05T15:02:50.261-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/1290> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/vitorio> ;
+	rev:text "Shopping Alto Palermo"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/vitorio> ;
+	dcterms:created "2006-07-04T21:46:25.744-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/1290> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/compras> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/vitorio> ;
+	tags:taggedOn "2006-07-04T21:46:25.744-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/1280> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/javier> ;
+	rev:text "Shopping Alto Palermo"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/javier> ;
+	dcterms:created "2006-07-04T18:28:59.067-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/1280> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/cine> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/javier> ;
+	tags:taggedOn "2006-07-04T18:28:59.067-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/946> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/chantal> ;
+	rev:text "pasion de mujeres... cuack!"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/chantal> ;
+	dcterms:created "2006-06-16T15:27:25.206-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/946> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/shopping> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/chantal> ;
+	tags:taggedOn "2006-06-16T15:27:25.206-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/188> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	rev:text "Shopping Alto Palermo"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	dcterms:created "2006-04-17T21:09:44.471-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/188> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/compras> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	tags:taggedOn "2006-04-17T21:09:44.471-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/188> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/188> l:location-address "Cnel. Diaz y Santa Fe" ;
+	rev:hasReview <http://kraken.zauber.com.ar/resource/flof/review/188> , <http://kraken.zauber.com.ar/resource/flof/review/7476> , <http://kraken.zauber.com.ar/resource/flof/review/7332> , <http://kraken.zauber.com.ar/resource/flof/review/1290> , <http://kraken.zauber.com.ar/resource/flof/review/7388> , <http://kraken.zauber.com.ar/resource/flof/review/1280> , <http://kraken.zauber.com.ar/resource/flof/review/4448> , <http://kraken.zauber.com.ar/resource/flof/review/946> , <http://kraken.zauber.com.ar/resource/flof/review/1699> , <http://kraken.zauber.com.ar/resource/flof/review/7394> ;
+	tags:taggedWithTag <http://kraken.zauber.com.ar/resource/flof/tag/palermo> , <http://kraken.zauber.com.ar/resource/flof/tag/capitalfederal> , <http://kraken.zauber.com.ar/resource/flof/tag/kevinkuja> , <http://kraken.zauber.com.ar/resource/flof/tag/sebado> , <http://kraken.zauber.com.ar/resource/flof/tag/cine> , <http://kraken.zauber.com.ar/resource/flof/tag/2g,ort,argentina> , <http://kraken.zauber.com.ar/resource/flof/tag/recreacion> , <http://kraken.zauber.com.ar/resource/flof/tag/shopping> , <http://kraken.zauber.com.ar/resource/flof/tag/patiodecomidas> , <http://kraken.zauber.com.ar/resource/flof/tag/argentina> , <http://kraken.zauber.com.ar/resource/flof/tag/nico> , <http://kraken.zauber.com.ar/resource/flof/tag/5infc> , <http://kraken.zauber.com.ar/resource/flof/tag/altopalermo> , <http://kraken.zauber.com.ar/resource/flof/tag/compras> , <http://kraken.zauber.com.ar/resource/flof/tag/ort> , <http://kraken.zauber.com.ar/resource/flof/tag/ropa> , <http://kraken.zauber.com.ar/resource/flof/tag/giordano> , <http://kraken.zauber.com.ar/resource/flof/tag/clásico> , <http://kraken.zauber.com.ar/resource/flof/tag/bsas> , <http://kraken.zauber.com.ar/resource/flof/tag/alto> ;
+	foaf:depiction <http://www.vinylgrafix.com.ar/fotos/logos/Alto_Palermo__79743.gif> ;
+	dc:source <http://flof.com.ar> ;
+	dc:identifier "urn:zauber:flof:produccion:7476" , "urn:zauber:flof:produccion:1302" , "urn:zauber:flof:produccion:3868" , "urn:zauber:flof:produccion:7394" , "urn:zauber:flof:produccion:9458" , "urn:zauber:flof:produccion:7388" , "urn:zauber:flof:produccion:4448" , "urn:zauber:flof:produccion:12193" , "urn:zauber:flof:produccion:8332" , "urn:zauber:flof:produccion:8930" , "urn:zauber:flof:produccion:946" , "urn:zauber:flof:produccion:15104" , "urn:zauber:flof:produccion:1699" , "urn:zauber:flof:produccion:1280" , "urn:zauber:flof:produccion:1900" , "urn:zauber:flof:produccion:1290" , "urn:zauber:flof:produccion:3512" , "urn:zauber:flof:produccion:10305" , "urn:zauber:flof:produccion:188" , "urn:zauber:flof:produccion:9867" , "urn:zauber:flof:produccion:7332" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/rosela> a foaf:Person ;
+	foaf:nick "rosela" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/ak> a foaf:Person ;
+	foaf:nick "ak" ;
+	foaf:mbox_sha1sum "09bd364430bf39225bf239d4d7b9bcc8bc22b05b" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/mfcuadrado> a foaf:Person ;
+	foaf:nick "mfcuadrado" ;
+	foaf:mbox_sha1sum "ea8b9c10f52b86574f5a8cf210216eba290afac5" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/djkoll> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/nickyramone> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/juan> , <http://kraken.zauber.com.ar/resource/flof/user/djkoll> ;
+	foaf:nick "nickyramone" ;
+	foaf:mbox_sha1sum "baf0d06f82c3aa8a65066e22007f9ce00717bbae" .
+
+<http://kraken.zauber.com.ar/resource/flof/location/763> a l:flof-location ;
+	dc:title "El Cuartito"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/geo/69y7pmsvmw0h> a geo:Point ;
+	geo:lat "-34.5977597265239"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-58.3855746139526"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/763> l:location-geocode <http://kraken.zauber.com.ar/resource/geo/69y7pmsvmw0h> .
+
+<http://rdf.freebase.com/ns/en.retiro_buenos_aires> a l:location ;
+	l:location-containedby <http://rdf.freebase.com/ns/en.buenos_aires> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/763> l:location-containedby <http://rdf.freebase.com/ns/en.retiro_buenos_aires> , <http://rdf.freebase.com/ns/en.buenos_aires> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/17195> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/natallia> ;
+	rev:text "La mejor napolitana de la ciudad y el mejor flan"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/natallia> ;
+	dcterms:created "2009-09-08T13:19:54.570-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/al> a tags:Tag ;
+	tags:name "al"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/paso> a tags:Tag ;
+	tags:name "paso"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/faina> a tags:Tag ;
+	tags:name "faina"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/pizza> a tags:Tag ;
+	tags:name "pizza"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/napolitana> a tags:Tag ;
+	tags:name "napolitana"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/delivery> a tags:Tag ;
+	tags:name "delivery"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/17195> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/al> , <http://kraken.zauber.com.ar/resource/flof/tag/napolitana> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/faina> , <http://kraken.zauber.com.ar/resource/flof/tag/paso> , <http://kraken.zauber.com.ar/resource/flof/tag/delivery> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/natallia> ;
+	tags:taggedOn "2009-09-08T13:19:54.570-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/16677> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/natallia> ;
+	rev:text """La mejor napolitana.
+La cola de espera asusta, pero es puro ruido."""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/natallia> ;
+	dcterms:created "2009-05-07T21:46:59.245-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/moscato> a tags:Tag ;
+	tags:name "moscato"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/napolita> a tags:Tag ;
+	tags:name "napolita"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/alpaso> a tags:Tag ;
+	tags:name "alpaso"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/16677> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/alpaso> , <http://kraken.zauber.com.ar/resource/flof/tag/moscato> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/napolita> , <http://kraken.zauber.com.ar/resource/flof/tag/faina> , <http://kraken.zauber.com.ar/resource/flof/tag/delivery> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/natallia> ;
+	tags:taggedOn "2009-05-07T21:46:59.245-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/el> a tags:Tag ;
+	tags:name "el"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/cuartito> a tags:Tag ;
+	tags:name "cuartito"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/9928> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/cuartito> , <http://kraken.zauber.com.ar/resource/flof/tag/el> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/rosela> ;
+	tags:taggedOn "2008-04-08T10:31:41.040-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/tradicional> a tags:Tag ;
+	tags:name "tradicional"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/empanadas> a tags:Tag ;
+	tags:name "empanadas"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/9133> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/empanadas> , <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/tradicional> , <http://kraken.zauber.com.ar/resource/flof/tag/delivery> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/ak> ;
+	tags:taggedOn "2008-01-23T19:18:11.936-02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/8319> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/s_e_b_a> ;
+	tags:taggedOn "2007-11-03T21:52:06.846-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/pizzeria> a tags:Tag ;
+	tags:name "pizzeria"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/7586> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/pizzeria> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/agushbb> ;
+	tags:taggedOn "2007-08-24T17:08:14.780-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/5071> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/matias> ;
+	rev:text "Pizzería muy muy famosa. Fugazzeta."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/matias> ;
+	dcterms:created "2007-02-06T19:14:42.655-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/comida> a tags:Tag ;
+	tags:name "comida"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/salieris> a tags:Tag ;
+	tags:name "salieris"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/5071> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/salieris> , <http://kraken.zauber.com.ar/resource/flof/tag/comida> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/matias> ;
+	tags:taggedOn "2007-02-06T19:14:42.655-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/4995> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/bighead> ;
+	rev:text "Buenas pizzas, aunque un tanto pesadas. PEro nada de pizza a la piedra, de las clasicas gorditas y con mucho queso..."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/bighead> ;
+	dcterms:created "2007-02-04T02:56:06.106-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4995> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/capitalfederal> , <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/clásico> , <http://kraken.zauber.com.ar/resource/flof/tag/comida> , <http://kraken.zauber.com.ar/resource/flof/tag/tradicional> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/bighead> ;
+	tags:taggedOn "2007-02-04T02:56:06.106-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/fugazetta> a tags:Tag ;
+	tags:name "fugazetta"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4993> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/empanadas> , <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/fugazetta> , <http://kraken.zauber.com.ar/resource/flof/tag/comida> , <http://kraken.zauber.com.ar/resource/flof/tag/delivery> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	tags:taggedOn "2007-02-03T12:28:44.391-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/4498> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	rev:text "El Cuartito"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	dcterms:created "2007-01-07T19:52:13.180-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4498> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/comida> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/ncachanosky> ;
+	tags:taggedOn "2007-01-07T19:52:13.180-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/4117> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/fernando> ;
+	rev:text """Pizzería tradicional de Buenos Aires. 
+Muy buena la fugazetta rellena."""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/fernando> ;
+	dcterms:created "2006-12-18T11:18:43.603-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/4117> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/empanadas> , <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/tradicional> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/fernando> ;
+	tags:taggedOn "2006-12-18T11:18:43.603-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3995> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/mfcuadrado> ;
+	rev:text "Excelente pizza. La \"zeta\" es buenísima."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/mfcuadrado> ;
+	dcterms:created "2006-12-12T19:24:14.450-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/fotos> a tags:Tag ;
+	tags:name "fotos"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/deportes> a tags:Tag ;
+	tags:name "deportes"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/histórico> a tags:Tag ;
+	tags:name "histórico"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3995> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/fugazetta> , <http://kraken.zauber.com.ar/resource/flof/tag/deportes> , <http://kraken.zauber.com.ar/resource/flof/tag/fotos> , <http://kraken.zauber.com.ar/resource/flof/tag/delivery> , <http://kraken.zauber.com.ar/resource/flof/tag/histórico> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/mfcuadrado> ;
+	tags:taggedOn "2006-12-12T19:24:14.450-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3941> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/nickyramone> ;
+	rev:text """Pizzería tradicional.
+La pizza es muy buena (recomendada la fugazzetta rellena).
+Tiene precios normales y no es caro el lugar aunque tienen pizzas de precios excesivos si te querés dar el lujo."""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/nickyramone> ;
+	dcterms:created "2006-12-10T19:40:43.099-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3941> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/pizza> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/nickyramone> ;
+	tags:taggedOn "2006-12-10T19:40:43.099-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3668> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/salieris> ;
+	rev:text "Una muy buena pizzeria. Fuimos el 23 de Noviembre del 2006."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/salieris> ;
+	dcterms:created "2006-11-24T09:23:28.138-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3668> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/comidajueves> , <http://kraken.zauber.com.ar/resource/flof/tag/salieris> , <http://kraken.zauber.com.ar/resource/flof/tag/tradicional> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/salieris> ;
+	tags:taggedOn "2006-11-24T09:23:28.138-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3667> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	rev:text "Excelente pizza al molde"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	dcterms:created "2006-11-24T09:22:32.930-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3667> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/tradicional> , <http://kraken.zauber.com.ar/resource/flof/tag/delivery> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	tags:taggedOn "2006-11-24T09:22:32.930-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3556> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/vitorio> ;
+	rev:text "Una pizza increible. La mejor Fugazetta de Buenos Aires. Ademas el lugar esta muy bueno, mucha mistica!!"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/vitorio> ;
+	dcterms:created "2006-11-20T10:56:01.271-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3556> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/empanadas> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/fugazetta> , <http://kraken.zauber.com.ar/resource/flof/tag/delivery> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/vitorio> ;
+	tags:taggedOn "2006-11-20T10:56:01.271-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/876> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/cono> ;
+	rev:text """tradicional pizzería porteña. tiene \"ese que se yo\"...
+la muzarella rellena es lo mas!"""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/cono> ;
+	dcterms:created "2006-06-14T23:16:44.901-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/876> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/cono> ;
+	tags:taggedOn "2006-06-14T23:16:44.901-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/764> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/luigi> ;
+	rev:text """tradicional pizzería porteña. tiene \"ese que se yo\"...
+la muzarella rellena es lo mas!"""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/luigi> ;
+	dcterms:created "2006-06-11T20:46:39.726-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/764> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/luigi> ;
+	tags:taggedOn "2006-06-11T20:46:39.726-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/763> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/juan> ;
+	rev:text "tradicional pizzería porteña. tiene \"ese que se yo\"... buena pizza."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/juan> ;
+	dcterms:created "2006-06-11T20:22:04.263-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/pcmasmas> a tags:Tag ;
+	tags:name "pcmasmas"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/763> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/empanadas> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/pcmasmas> , <http://kraken.zauber.com.ar/resource/flof/tag/tradicional> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/juan> ;
+	tags:taggedOn "2006-06-11T20:22:04.263-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/763> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/763> l:location-address "TALCAHUANO 937" ;
+	rev:hasReview <http://kraken.zauber.com.ar/resource/flof/review/3668> , <http://kraken.zauber.com.ar/resource/flof/review/3667> , <http://kraken.zauber.com.ar/resource/flof/review/764> , <http://kraken.zauber.com.ar/resource/flof/review/763> , <http://kraken.zauber.com.ar/resource/flof/review/17195> , <http://kraken.zauber.com.ar/resource/flof/review/16677> , <http://kraken.zauber.com.ar/resource/flof/review/5071> , <http://kraken.zauber.com.ar/resource/flof/review/3556> , <http://kraken.zauber.com.ar/resource/flof/review/876> , <http://kraken.zauber.com.ar/resource/flof/review/4117> , <http://kraken.zauber.com.ar/resource/flof/review/3995> , <http://kraken.zauber.com.ar/resource/flof/review/4995> , <http://kraken.zauber.com.ar/resource/flof/review/3941> , <http://kraken.zauber.com.ar/resource/flof/review/4498> ;
+	tags:taggedWithTag <http://kraken.zauber.com.ar/resource/flof/tag/pizzeria> , <http://kraken.zauber.com.ar/resource/flof/tag/pizza> , <http://kraken.zauber.com.ar/resource/flof/tag/pcmasmas> , <http://kraken.zauber.com.ar/resource/flof/tag/faina> , <http://kraken.zauber.com.ar/resource/flof/tag/el> , <http://kraken.zauber.com.ar/resource/flof/tag/al> , <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/napolita> , <http://kraken.zauber.com.ar/resource/flof/tag/clásico> , <http://kraken.zauber.com.ar/resource/flof/tag/delivery> , <http://kraken.zauber.com.ar/resource/flof/tag/capitalfederal> , <http://kraken.zauber.com.ar/resource/flof/tag/empanadas> , <http://kraken.zauber.com.ar/resource/flof/tag/napolitana> , <http://kraken.zauber.com.ar/resource/flof/tag/fugazetta> , <http://kraken.zauber.com.ar/resource/flof/tag/moscato> , <http://kraken.zauber.com.ar/resource/flof/tag/deportes> , <http://kraken.zauber.com.ar/resource/flof/tag/fotos> , <http://kraken.zauber.com.ar/resource/flof/tag/salieris> , <http://kraken.zauber.com.ar/resource/flof/tag/comida> , <http://kraken.zauber.com.ar/resource/flof/tag/paso> , <http://kraken.zauber.com.ar/resource/flof/tag/alpaso> , <http://kraken.zauber.com.ar/resource/flof/tag/cuartito> , <http://kraken.zauber.com.ar/resource/flof/tag/comidajueves> , <http://kraken.zauber.com.ar/resource/flof/tag/tradicional> , <http://kraken.zauber.com.ar/resource/flof/tag/histórico> ;
+	dc:source <http://flof.com.ar> ;
+	dc:identifier "urn:zauber:flof:produccion:9133" , "urn:zauber:flof:produccion:9928" , "urn:zauber:flof:produccion:3941" , "urn:zauber:flof:produccion:4117" , "urn:zauber:flof:produccion:763" , "urn:zauber:flof:produccion:7586" , "urn:zauber:flof:produccion:764" , "urn:zauber:flof:produccion:3667" , "urn:zauber:flof:produccion:3995" , "urn:zauber:flof:produccion:876" , "urn:zauber:flof:produccion:8319" , "urn:zauber:flof:produccion:17195" , "urn:zauber:flof:produccion:4498" , "urn:zauber:flof:produccion:16677" , "urn:zauber:flof:produccion:4995" , "urn:zauber:flof:produccion:5071" , "urn:zauber:flof:produccion:3556" , "urn:zauber:flof:produccion:4993" , "urn:zauber:flof:produccion:3668" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/apose> a foaf:Person ;
+	foaf:nick "apose" ;
+	foaf:mbox_sha1sum "edafbe4683ed72a47a9f09e7df98b2b12a0b788b" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/intretenimientos> a foaf:Person ;
+	foaf:nick "intretenimientos" ;
+	foaf:mbox_sha1sum "e8212eb53b109965384a3024f7d645cd22d612da" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/fede77> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/alerizzo> a foaf:Person .
+
+<http://kraken.zauber.com.ar/resource/flof/user/fede77> foaf:knows <http://kraken.zauber.com.ar/resource/flof/user/alerizzo> ;
+	foaf:nick "fede77" ;
+	foaf:mbox_sha1sum "d62954a810dcbdc4d82542ed8f7e6087fe285f5e" .
+
+<http://kraken.zauber.com.ar/resource/flof/user/alerizzo> foaf:nick "alerizzo" ;
+	foaf:mbox_sha1sum "7f5cc8325e135152ad2ecf6fd768c4bc9b71fdb2" .
+
+<http://kraken.zauber.com.ar/resource/flof/location/236> a l:flof-location ;
+	dc:title "Aca Bar"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/geo/69y7q0qfyubj> a geo:Point ;
+	geo:lat "-34.5830892367176"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-58.4377060283661"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/236> l:location-geocode <http://kraken.zauber.com.ar/resource/geo/69y7q0qfyubj> ;
+	l:location-containedby <http://rdf.freebase.com/ns/en.buenos_aires> , <http://rdf.freebase.com/ns/en.palermo_buenos_aires> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/juegos> a tags:Tag ;
+	tags:name "juegos"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/diversion> a tags:Tag ;
+	tags:name "diversion"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/palermohollywood> a tags:Tag ;
+	tags:name "palermohollywood"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/night> a tags:Tag ;
+	tags:name "night"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/13176> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/juegos> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/palermohollywood> , <http://kraken.zauber.com.ar/resource/flof/tag/night> , <http://kraken.zauber.com.ar/resource/flof/tag/diversion> , <http://kraken.zauber.com.ar/resource/flof/tag/comida> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/apose> ;
+	tags:taggedOn "2008-12-21T15:24:12.239-02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://www.guiaoleo.com.ar/photos/photo_808_1.jpg> a foaf:Image .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=13176> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/acabar> a tags:Tag .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/10134> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/juegos> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/palermohollywood> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/alvarete> ;
+	tags:taggedOn "2008-04-19T15:44:22.937-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=10134> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3080> tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/acabar> tags:name "acabar"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/9931> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/acabar> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/rosela> ;
+	tags:taggedOn "2008-04-08T10:35:18.236-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=9931> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/9108> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/juegos> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/diversion> , <http://kraken.zauber.com.ar/resource/flof/tag/comida> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/ak> ;
+	tags:taggedOn "2008-01-23T10:46:34.524-02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=9108> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/8504> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/bares> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/intretenimientos> ;
+	tags:taggedOn "2007-11-14T18:23:54.907-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=8504> a foaf:Image .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3080> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/review/8048> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/bighead> ;
+	rev:text "Restaurant/Bar con juegos de mesa. Comida rica."@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/bighead> ;
+	dcterms:created "2007-10-03T05:58:52.273-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/8048> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/capitalfederal> , <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/juegos> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/comida> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/bighead> ;
+	tags:taggedOn "2007-10-03T05:58:52.273-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/7585> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/agushbb> ;
+	rev:text "juegos de mesa"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/agushbb> ;
+	dcterms:created "2007-08-24T17:05:29.896-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/tematico> a tags:Tag ;
+	tags:name "tematico"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/7585> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/tematico> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/agushbb> ;
+	tags:taggedOn "2007-08-24T17:05:29.896-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/noche> a tags:Tag ;
+	tags:name "noche"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/6541> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/juegos> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/noche> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/luigi> ;
+	tags:taggedOn "2007-06-09T23:25:35.480-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=6541> a foaf:Image .
+
+<http://www.guiaoleo.com.ar/photos/photo_808_1.jpg> foaf:thumbnail <http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3050> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/buenosaires> a tags:Tag ;
+	tags:name "buenosaires"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/5151> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/buenosaires> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/leech> ;
+	tags:taggedOn "2007-02-12T09:49:17.182-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/5142> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	rev:text """Es más un restaurante que bar, pero bueno.
+
+Acabar, akabar, akbar"""@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	dcterms:created "2007-02-11T21:53:54.586-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/5142> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/juegos> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/night> , <http://kraken.zauber.com.ar/resource/flof/tag/diversion> , <http://kraken.zauber.com.ar/resource/flof/tag/comida> , <http://kraken.zauber.com.ar/resource/flof/tag/noche> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/epere4> ;
+	tags:taggedOn "2007-02-11T21:53:54.586-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://kraken.zauber.com.ar/resource/flof/tag/comidas> a tags:Tag ;
+	tags:name "comidas"@es-ar .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3080> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/bares> , <http://kraken.zauber.com.ar/resource/flof/tag/diversion> , <http://kraken.zauber.com.ar/resource/flof/tag/comidas> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/fede77> ;
+	tags:taggedOn "2006-10-17T08:13:00.632-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://kraken.zauber.com.ar/resource/flof/review/3050> a rev:Review ;
+	rev:reviewer <http://kraken.zauber.com.ar/resource/flof/user/alerizzo> ;
+	rev:text "Bar con juegos de mesa por Palermo"@es-ar ;
+	dc:creator <http://kraken.zauber.com.ar/resource/flof/user/alerizzo> ;
+	dcterms:created "2006-10-14T14:45:53.749-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	dc:source <http://flof.com.ar> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/3050> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/juegos> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/night> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/alerizzo> ;
+	tags:taggedOn "2006-10-14T14:45:53.749-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://flof.com.ar/bin/spot/image/?action=thumb&imageid=3050> a foaf:Image .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/881> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/juegos> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/night> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/cono> ;
+	tags:taggedOn "2006-06-14T23:17:40.410-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/560> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/juegos> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/noche> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/fernando> ;
+	tags:taggedOn "2006-04-27T20:29:43.074-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://kraken.zauber.com.ar/resource/flof/tagging/236> a tags:Tagging ;
+	tags:associatedTag <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/juegos> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/night> ;
+	tags:taggedBy <http://kraken.zauber.com.ar/resource/flof/user/martin> ;
+	tags:taggedOn "2006-04-18T12:28:07.873-03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	tags:taggedResource <http://kraken.zauber.com.ar/resource/flof/location/236> .
+
+<http://kraken.zauber.com.ar/resource/flof/location/236> l:location-address "Honduras 5733" ;
+	rev:hasReview <http://kraken.zauber.com.ar/resource/flof/review/5142> , <http://kraken.zauber.com.ar/resource/flof/review/7585> , <http://kraken.zauber.com.ar/resource/flof/review/8048> , <http://kraken.zauber.com.ar/resource/flof/review/3050> ;
+	tags:taggedWithTag <http://kraken.zauber.com.ar/resource/flof/tag/capitalfederal> , <http://kraken.zauber.com.ar/resource/flof/tag/acabar> , <http://kraken.zauber.com.ar/resource/flof/tag/juegos> , <http://kraken.zauber.com.ar/resource/flof/tag/buenosaires> , <http://kraken.zauber.com.ar/resource/flof/tag/tematico> , <http://kraken.zauber.com.ar/resource/flof/tag/comida> , <http://kraken.zauber.com.ar/resource/flof/tag/comidas> , <http://kraken.zauber.com.ar/resource/flof/tag/bares> , <http://kraken.zauber.com.ar/resource/flof/tag/restaurant> , <http://kraken.zauber.com.ar/resource/flof/tag/bar> , <http://kraken.zauber.com.ar/resource/flof/tag/palermohollywood> , <http://kraken.zauber.com.ar/resource/flof/tag/night> , <http://kraken.zauber.com.ar/resource/flof/tag/diversion> , <http://kraken.zauber.com.ar/resource/flof/tag/noche> ;
+	foaf:depiction <http://www.guiaoleo.com.ar/photos/photo_808_1.jpg> ;
+	dc:source <http://flof.com.ar> ;
+	dc:identifier "urn:zauber:flof:produccion:5142" , "urn:zauber:flof:produccion:3080" , "urn:zauber:flof:produccion:9931" , "urn:zauber:flof:produccion:881" , "urn:zauber:flof:produccion:5151" , "urn:zauber:flof:produccion:560" , "urn:zauber:flof:produccion:3050" , "urn:zauber:flof:produccion:8504" , "urn:zauber:flof:produccion:7585" , "urn:zauber:flof:produccion:8048" , "urn:zauber:flof:produccion:10134" , "urn:zauber:flof:produccion:13176" , "urn:zauber:flof:produccion:6541" , "urn:zauber:flof:produccion:236" , "urn:zauber:flof:produccion:9108" .
